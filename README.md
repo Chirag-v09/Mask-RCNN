@@ -32,7 +32,7 @@ This additional branch acquires the output of the ROI Align and then feeds it in
 The output of CONV layers is the mask itself.
 Now, We can further visualize the Mask R-CNN architecture in the following figure:  The Mask R-CNN work is done by He et al. replaces the ROI Polling module with an extra precise ROI Align module. The output of the ROI module is next fed into two CONV layers. The output of this CONV layers is the mask itself.
 
-                                        A visualization of Mask R-CNN producing a 15 x 15 mask, the mask resized to the original dimensions of the image, and then finally overlapping the mask on the original image.
+A visualization of Mask R-CNN producing a 15 x 15 mask, the mask resized to the original dimensions of the image, and then finally overlapping the mask on the original image.
 
 Step By Step Detection:
 1)	Anchor Sorting and Filtering
